@@ -1,19 +1,19 @@
-# HaloDAO Contract Addresses
+# Xave Contract Addresses
 
-List of HaloDAO contract addresses across all chains
+List of Xave contract addresses across all chains
 
 ## Quickstart
 
 1. Install
 
 ```
-yarn add @halodao/halodao-contract-addresses
+yarn add @halodao/xave-contract-addresses
 ```
 
 2. Sample usage
 
 ```
-import { mainnet } from '@halodao/halodao-contract-addresses'
+import { kovan } from '@halodao/xave-contract-addresses'
 
-console.log('Mainnet RNBW address is: ', mainnet.protocol.RNBW)
+console.log('Kovan XAV address is: ', kovan.protocol.XAV)
 ```

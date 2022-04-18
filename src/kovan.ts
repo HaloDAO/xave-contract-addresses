@@ -1,4 +1,4 @@
-import { AddressCollection } from './types'
+import { AddressCollection, ZERO_ADDRESS } from './types'
 
 const tokens = {
   CHF: '0xE9958574866587c391735b7e7CE0D79432d3b9d0',
@@ -20,29 +20,15 @@ const curves = {
 
 const addresses: AddressCollection = {
   protocol: {
+    XAV: '0xDdD46A4966a2197396BeFdF1d922569bf5F3163b',
+    veXAV: '0x5F5a203bd10E78F35d7B74E90e49F6C4C0BC02C6', // (HaloHalo.sol)
     RNBW: '0x16D185d025bF592114D1A68f83085F36159f6CdA',
     xRNBW: '0xbcbfEac78133D1efe71Ba16D4F4221b9AD4bAd01'
   },
   rewards: {
-    ammRewards: '0xdCE943BeF9bF1E9F8B6f8a8Eb093dceF46a489eD',
-    rewardsManager: '0x3B25a58Ca40c93F690388126478cc0F58E42Bd3C'
+    ammRewards: '0x2BCC684965Dcd30639a99855b6115f738027cf74'
   },
-  ammV1: {
-    factory: '',
-    router: '0xa02dCeB15cc32249beC33C2808b4799a44F8B0D5',
-    zap: '0xf3429A0cC9Ed42929ac7Bae8D1B2ED42F0325C11',
-    curves: {
-      enabled: [
-        curves.HLP_EURS_USDC, // EURS:USDC
-        curves.HLP_CHF_USDC, // CHF:USDC
-        curves.HLP_GBP_USDC, // GBP:USDC
-        curves.HLP_WETH_USDC, // WETH:USDC
-        curves.HLP_XIDR_USDC // XIDR:USDC
-      ],
-      disabled: []
-    }
-  },
-  ammV2: {
+  amm: {
     vault: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
     pools: {
       genesis: [

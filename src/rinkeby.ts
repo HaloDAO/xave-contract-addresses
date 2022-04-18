@@ -11,44 +11,24 @@ const tokens = {
 
 const addresses: AddressCollection = {
   protocol: {
+    XAV: ZERO_ADDRESS,
+    veXAV: ZERO_ADDRESS,
     RNBW: '0x357bdb97FB9555bede5ed5201dBD15a8f3f6B7B8',
     xRNBW: '0xC1cFbAdE2df5fe70C18273F926553D9d2c8f944C'
   },
   rewards: {
     ammRewards: '0xf3585984B956f2A26694ee1BAede7eAB658A5e7E'
   },
-  ammV2: {
-    vault: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
+  amm: {
+    vault: ZERO_ADDRESS,
     pools: {
       genesis: [],
-      enabled: [
-        {
-          assets: [tokens.fxPHP, tokens.USDC],
-          address: '0x4B4404E80bb3Ae9E342B8aC3A95eF014AE7F9E48',
-          poolId:
-            '0x4b4404e80bb3ae9e342b8ac3a95ef014ae7f9e480001000000000000000000eb'
-        },
-        {
-          assets: [tokens.XSGD, tokens.USDC],
-          address: '0x30eA140e33E265e3793ce3C125eE72987BDAC50E',
-          poolId:
-            '0x30ea140e33e265e3793ce3c125ee72987bdac50e000100000000000000000178'
-        },
-        {
-          assets: [tokens.EURS, tokens.USDC],
-          address: '0x4159d4279BAc010ef4E4c1a7e085f6103956a95a',
-          poolId:
-            '0x4159d4279bac010ef4e4c1a7e085f6103956a95a000100000000000000000179'
-        }
-      ],
+      enabled: [],
       disabled: []
     },
     proportionalLiquidity: ZERO_ADDRESS,
     assimilatorFactory: ZERO_ADDRESS,
-    oracles: {
-      USDC: '0xa24de01df22b63d23Ebc1882a5E3d4ec0d907bFB',
-      EURS: '0x78F9e60608bF48a1155b4B2A5e31F32318a1d85F'
-    }
+    oracles: {}
   },
   tokens
 }

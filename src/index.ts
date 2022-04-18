@@ -4,6 +4,5 @@ import rinkeby from './rinkeby'
 import arb from './arb'
 import arbTestnet from './arbTestnet'
 import matic from './matic'
-import lollidao_mainnet from './lollidao.mainnet'
 
-export { mainnet, kovan, rinkeby, arb, arbTestnet, matic, lollidao_mainnet }
+export { mainnet, kovan, rinkeby, arb, arbTestnet, matic }

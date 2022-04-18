@@ -6,36 +6,17 @@ type Pool = {
 
 export type AddressCollection = {
   protocol: {
+    XAV: string
+    veXAV: string
     RNBW: string
     xRNBW: string
-    LPOP?: string
-    xLPOP?: string
   }
   rewards: {
     ammRewards: string
     rewardsManager?: string
     epochManager?: string
   }
-  ammV1?: {
-    factory: string
-    router: string
-    zap: string
-    libraries?: {
-      curves: string
-      orchestrator: string
-      proportionalLiquidity: string
-      swaps: string
-      viewLiquidity: string
-    }
-    curves: {
-      enabled: string[]
-      disabled: string[]
-    }
-    assimilators?: {
-      usdToUsdcAssimilator?: string
-    }
-  }
-  ammV2: {
+  amm: {
     vault: string
     pools: {
       genesis: Pool[]
