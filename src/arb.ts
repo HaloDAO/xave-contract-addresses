@@ -24,12 +24,25 @@ const addresses: AddressCollection = {
     vault: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
     pools: {
       genesis: [],
-      enabled: [],
+      enabled: [
+        {
+          assets: [tokens.testFxPHP, tokens.testUSDC],
+          address: '0x540C3126DF05CfB001eaEEBB08D1659439d02a95',
+          poolId:
+            '0x540c3126df05cfb001eaeebb08d1659439d02a9500020000000000000000007d'
+        },
+        {
+          assets: [tokens.testXSGD, tokens.testUSDC],
+          address: '0x8e13Acc4780f78d13E92a30b72DF526bE76561eF',
+          poolId:
+            '0x8e13acc4780f78d13e92a30b72df526be76561ef00020000000000000000007e'
+        }
+      ],
       disabled: []
     },
-    proportionalLiquidity: ZERO_ADDRESS,
-    assimilatorFactory: ZERO_ADDRESS,
-    swapLibrary: ZERO_ADDRESS,
+    proportionalLiquidity: '0x3af74d19F50f24C75e4000Fe665d718387b1DA74',
+    assimilatorFactory: '0xB474537769c335BC96cB86DeC70E6C7F36b39b1e',
+    swapLibrary: '0xF82fd35163D1383e76ceD09c605DF5DB81439014',
     oracles: {
       USDC: '0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3',
       fxPHP: '0xfF82AAF635645fD0bcc7b619C3F28004cDb58574',

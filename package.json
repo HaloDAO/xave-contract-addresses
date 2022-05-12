@@ -1,6 +1,6 @@
 {
   "name": "@halodao/xave-contract-addresses",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "List of Xave contract addresses across all chains",
   "repository": "https://github.com/HaloDAO/xave-contract-addresses",
   "author": "Xave Dev",
