@@ -28,6 +28,7 @@ const addresses: AddressCollection = {
     },
     proportionalLiquidity: ZERO_ADDRESS,
     assimilatorFactory: ZERO_ADDRESS,
+    swapLibrary: ZERO_ADDRESS,
     oracles: {}
   },
   tokens
