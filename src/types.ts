@@ -25,6 +25,7 @@ export type AddressCollection = {
     }
     proportionalLiquidity: string
     assimilatorFactory: string
+    swapLibrary: string
     oracles: {
       USDC?: string
       fxPHP?: string

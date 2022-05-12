@@ -19,7 +19,13 @@ const addresses: AddressCollection = {
     },
     proportionalLiquidity: ZERO_ADDRESS,
     assimilatorFactory: ZERO_ADDRESS,
-    oracles: {}
+    swapLibrary: ZERO_ADDRESS,
+    oracles: {
+      USDC: '0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3',
+      fxPHP: '0xfF82AAF635645fD0bcc7b619C3F28004cDb58574',
+      XSGD: '0xF0d38324d1F86a176aC727A4b0c43c9F9d9c5EB1',
+      EURS: '0xA14d53bC1F1c0F31B4aA3BD109344E5009051a84'
+    }
   },
   tokens: {}
 }
