@@ -1,8 +1,8 @@
 import { AddressCollection, ZERO_ADDRESS } from './types'
 
 const tokens = {
-  fakeUSDC: '0xd92295aDCE5B6961853394Ad05fb4670012D8c60',
-  fakeFxPHP: '0xe1Ca353a88a8822ed95293a7E76bd20eEA2ff662'
+  testUSDC: '0xd92295aDCE5B6961853394Ad05fb4670012D8c60', // Test mintable token
+  testFxPHP: '0xe1Ca353a88a8822ed95293a7E76bd20eEA2ff662' // Test mintable token
 }
 
 const addresses: AddressCollection = {

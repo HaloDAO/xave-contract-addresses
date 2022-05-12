@@ -48,8 +48,10 @@ export type AddressCollection = {
     fxAUD?: string
     UST?: string
     CHF?: string
-    fakeUSDC?: string
-    fakeFxPHP?: string
+    testUSDC?: string
+    testFxPHP?: string
+    testXSGD?: string
+    testEURS?: string
   }
   lendingMarket?: {
     protocol: {
