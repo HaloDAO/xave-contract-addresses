@@ -31,6 +31,7 @@ export type AddressCollection = {
       fxPHP?: string
       XSGD?: string
       EURS?: string
+      CHF?: string
     }
   }
   tokens: {
